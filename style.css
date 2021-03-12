@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.shelf {
+    /* border-bottom: 10px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 2em;
+}
+
+.shelf .book-spine {
+    text-align: center;
+    background: black;
+    color: white;
+    width: 500px;
+    padding: 10px 0px;
+    margin-bottom: 2px;
+    margin-right: 2px;
+    line-height: 30px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.shelf.book-spine.active {
+    background: red;
+}
+
+.shelf .book-spine:hover {
+    background: #f00;
+}
+
+.answer-detail {
+    display: flex;
+}
